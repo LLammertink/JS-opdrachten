@@ -23,4 +23,3 @@ console.log(`Vergelijking 5 = ${x+3 === y}`);
 console.log(`Vergelijking 6 = ${x+3+'hoi' === y+'hoi'}`);
 //console.log(`Vergelijking 7 = ${y+z === 12}`);
 console.log(`Vergelijking 7 = z is not defined`);
-
