@@ -1,3 +1,5 @@
+document.body.innerHTML += `<h2>opdrachten 2.1 t/m 2.4</h2>`
+
 //2.1 opdracht 1//
 const myName = `Lorrie`;
 console.log(myName);
