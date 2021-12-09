@@ -1,1 +1,1 @@
-document.body.innerHTML += `<img src="../img/kotick.png>`;
+document.body.innerHTML += `<br><img src="img/kotick.jpg" height="600" style="border:20px dotted brown;">`;

@@ -10,7 +10,7 @@
 
 <body>
     <h1>Javascript opdrachten</h1>
-    <a href='linkhref.html' id='mylink1'>Opdrachten 2.1 t/m 2.4</a>
+    <a href='index.html' id='mylink1'>Opdrachten 2.1 t/m 2.4</a>
 
     <script type="text/javascript">
 
@@ -27,7 +27,7 @@
     </script>
     <br>
 
-    <a href='linkhref.html' id='mylink2'>Opdrachten 2.5 en 2.6</a>
+    <a href='index.html' id='mylink2'>Opdrachten 2.5 en 2.6</a>
 
     <script type="text/javascript">
 
@@ -45,7 +45,7 @@
 
     <br>
 
-    <a href='linkhref.html' id='mylink3'>BMI opdracht</a>
+    <a href='index.html' id='mylink3'>BMI opdracht</a>
 
     <script type="text/javascript">
 
@@ -62,11 +62,28 @@
     </script>
 
 
+    <br>
+
+    <a href='index.html' id='mylink4'>Opdrachten 2.7</a>
+
+    <script type="text/javascript">
+
+    var myLink4 = document.getElementById('mylink4');
+
+    myLink4.onclick = function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "js/2.7.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+    return false;
+    }
+    </script>
 
 
 
 
-    <a class="hiddenbutton" href='linkhref.html' id='mylink99'>Klik hier als je de betekenis van het leven en al zijn existentiële principes bent vergeten.</a>
+    <a class="hiddenbutton" href='index.html' id='mylink99'>Klik hier als je de betekenis van het leven en al zijn existentiële principes bent vergeten.</a>
 
     <script type="text/javascript">
 
