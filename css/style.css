@@ -1,0 +1,9 @@
+body {
+    background-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hiddenbutton {
+    float: right;
+    margin-top: 800px;
+}

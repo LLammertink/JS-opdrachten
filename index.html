@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Javascript oprachten</h1>
+    <h1>Javascript opdrachten</h1>
     <a href='linkhref.html' id='mylink1'>Opdrachten 2.1 t/m 2.4</a>
 
     <script type="text/javascript">
@@ -41,6 +42,46 @@
     return false;  
     }
     </script>
+
+    <br>
+
+    <a href='linkhref.html' id='mylink3'>BMI opdracht</a>
+
+    <script type="text/javascript">
+
+    var myLink3 = document.getElementById('mylink3');
+
+    myLink3.onclick = function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "js/bmi.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+    return false;
+    }
+    </script>
+
+
+
+
+
+
+    <a class="hiddenbutton" href='linkhref.html' id='mylink99'>Klik hier als je de betekenis van het leven en al zijn existentiële principes bent vergeten.</a>
+
+    <script type="text/javascript">
+
+    var myLink99 = document.getElementById('mylink99');
+
+    myLink99.onclick = function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "js/hidden.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+    return false;
+    }
+    </script>
+
 
 
 </body>
